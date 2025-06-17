@@ -1,0 +1,6 @@
+1st step: i have used the terraform to create the insfrastructure .
+
+2nd step: resoures i have created are mention below:
+ *Created the resource group name "rg"
+ *mentioned the location as east us 
+ *created the app service plan name app service plan is very importent while creating the web application where i have mention sku tier as free and size i f1
