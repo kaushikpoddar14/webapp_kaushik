@@ -34,7 +34,7 @@ steps:
 - task: AzureWebApp@1
   inputs:
     azureSubscription: '<subscription id>'
-    appName: '$(webapp_kaushik)'
+    appName: '$(AZURE_WEBAPP_NAME)'
     package: '.'
     deploymentMethod: 'auto'
   displayName: 'Deploy to Azure Web App'
