@@ -1,0 +1,9 @@
+Step 1: i have added the trigger as main branch in case any engineer commit any chnages then it will trigger the pipeline
+step 2: added the agent name ubuntu-latest perform the task 
+step 3: added the variable as webapp name : webap_kaushik
+step 4: i have check the source code 
+Step: 5: install the Node.Js or i can say i have setup the node Js
+Step: 6: i have install the dependency and npm install was done 
+setp: 7: i have run the code build running nmp run build 
+Stpe: 8: publish the rtifact and when i have given the name to the aftifact as nextjs and artifacts was droped to "next"
+stpe: 9: where finally i have deploy the application 
