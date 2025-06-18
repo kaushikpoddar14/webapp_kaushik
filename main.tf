@@ -9,8 +9,8 @@ resource "azurerm_resource_group" "rg" {
 
 resource "azurerm_app_service_plan" "app_service_plan" {
   name                = "app_service_plan"
-  location            = azurerm_resource_group.rg.location
-  resource_group_name = azurerm_resource_group.rg.name
+  location            = EAST-US
+  resource_group_name = rg
   sku {
     tier = "Free"
     size = "F1"
@@ -19,8 +19,8 @@ resource "azurerm_app_service_plan" "app_service_plan" {
 
 resource "azurerm_app_service" "app_service" {
   name                = "webapp-kaushik"
-  location            = azurerm_resource_group.rg.location
-  resource_group_name = azurerm_resource_group.rg.name
+  location            = EAST-US
+  resource_group_name = RG
   app_service_plan_id = azurerm_app_service_plan.app_service_plan.id
 
   site_config {
